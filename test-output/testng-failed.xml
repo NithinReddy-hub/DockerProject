@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="DockerSample.NewTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- DockerSample.NewTest -->
+      <class name="DockerSample.Amazon">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- DockerSample.Amazon -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

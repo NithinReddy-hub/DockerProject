@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35010" started-at="2019-10-30T13:53:38Z" finished-at="2019-10-30T13:54:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35010" started-at="2019-10-30T13:53:38Z" finished-at="2019-10-30T13:54:13Z">
+      <class name="DockerSample.NewTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:DockerSample.NewTest@3532ec19]" name="launchBrowser" is-config="true" duration-ms="7251" started-at="2019-10-30T13:53:53Z" finished-at="2019-10-30T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:DockerSample.NewTest@3532ec19]" name="verifyHomepageTitle" duration-ms="28" started-at="2019-10-30T13:54:00Z" finished-at="2019-10-30T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:DockerSample.NewTest@3532ec19]" name="terminateBrowser" is-config="true" duration-ms="241" started-at="2019-10-30T13:54:00Z" finished-at="2019-10-30T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- DockerSample.NewTest -->
+      <class name="DockerSample.Amazon">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:DockerSample.Amazon@68c4039c]" name="launchBrowser" is-config="true" duration-ms="9099" started-at="2019-10-30T13:53:53Z" finished-at="2019-10-30T13:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:DockerSample.Amazon@68c4039c]" name="verifyHomepageTitle" duration-ms="25" started-at="2019-10-30T13:54:02Z" finished-at="2019-10-30T13:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:DockerSample.Amazon@68c4039c]" name="terminateBrowser" is-config="true" duration-ms="4720" started-at="2019-10-30T13:54:02Z" finished-at="2019-10-30T13:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- DockerSample.Amazon -->
+      <class name="DockerSample.SetUpGrid">
+        <test-method status="PASS" signature="startGrid()[pri:0, instance:DockerSample.SetUpGrid@26653222]" name="startGrid" is-config="true" duration-ms="15071" started-at="2019-10-30T13:53:38Z" finished-at="2019-10-30T13:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGrid -->
+        <test-method status="PASS" signature="stopGrid()[pri:0, instance:DockerSample.SetUpGrid@26653222]" name="stopGrid" is-config="true" duration-ms="6068" started-at="2019-10-30T13:54:06Z" finished-at="2019-10-30T13:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopGrid -->
+      </class> <!-- DockerSample.SetUpGrid -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
